@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+}
+.Mecanico-container{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Mecanico-container li{
+    padding: 50px;
+    height: 400px;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+}
+.Mecanico-izq{
+    flex-basis: 40%;
+}
+.Mecanico-der{
+    flex-basis: 60%;
+}

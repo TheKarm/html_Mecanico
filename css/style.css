@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 ul{
     list-style-type: none;
 }
@@ -14,6 +15,7 @@ footer {
     color: white;
     padding: 60px 0;
 }
+
 .Mecanico-container{
     display: -webkit-flex;
     display: -moz-flex;
@@ -31,9 +33,68 @@ footer {
     background-clip: content-box;
     background-position: center;
 }
+
 .Mecanico-izq{
     flex-basis: 40%;
 }
+
 .Mecanico-der{
     flex-basis: 60%;
+}
+
+/*MECANICO ALAN GUAJARDO*/
+.Titulo-Mecanico1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.volver {
+    font-size: x-large;
+    background-color: transparent;
+    color: black;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.fondo {
+    position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+    background-image: url(../img/fondo-mecanicos.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+}
+
+.fondo::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: black;
+    width: 100%;
+   height: 100%;
+   opacity: .5;
+   content: '';
+}
+
+.ImagenMecanico1 {
+    padding-left: 170px;
+}
+
+.botonInicioSesion {
+    color: white;
+    text-decoration: none;
+}
+
+.BotonvolverMecanico1 {
+    text-decoration: none;
 }
